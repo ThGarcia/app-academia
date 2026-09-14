@@ -11,8 +11,8 @@ const treinosData = [
     {
         id: "treino_a", titulo: "Treino A", subtitulo: "Peito / Tríceps",
         exercicios: [
-            { id: "ta_1", nome: "Supino inclinado barra", series: "4x10", img: "https://via.placeholder.com/300?text=Supino+Inclinado" },
-            { id: "ta_2", nome: "Reto halter", series: "4x10", img: "https://via.placeholder.com/300?text=Reto+Halter" },
+            { id: "ta_1", nome: "Supino inclinado barra", series: "4x10", img: "" },
+            { id: "ta_2", nome: "Reto halter", series: "4x10", img: "" },
             { id: "ta_3", nome: "Declinado máq.", series: "4x10", img: "" },
             { id: "ta_4", nome: "Voador + elev. lat.", series: "4x10", img: "" },
             { id: "ta_5", nome: "Tríceps corda + barra", series: "4x10", img: "" },
@@ -23,28 +23,28 @@ const treinosData = [
     {
         id: "treino_b", titulo: "Treino B", subtitulo: "Quadríceps",
         exercicios: [
-            { id: "tb_1", nome: "Agach. Smith", series: "4x12", img: "https://i.postimg.cc/QtGT46rg/agachamento-smith.gif" },
-            { id: "tb_2", nome: "Extensora", series: "4x12", img: "https://i.postimg.cc/C1TqPvVG/extensora.gif" },
-            { id: "tb_3", nome: "Leg 45º", series: "4x12", img: "https://i.postimg.cc/cHyn9DNh/leg-45.gif" },
-            { id: "tb_4", nome: "Ext unilateral", series: "4x12", img: "https://i.postimg.cc/TwMD7kXc/extensora-unilateral.gif" },
-            { id: "tb_5", nome: "Hack", series: "4x12", img: "https://i.postimg.cc/RF5HsPzQ/hack.gif" },
-            { id: "tb_6", nome: "Adutor", series: "4x12", img: "https://i.postimg.cc/wBsNQCnW/adutor.gif" },
-            { id: "tb_7", nome: "Panturrilha máq.", series: "4x12", img: "https://i.postimg.cc/d1PyHWKn/panturrilha-maquina.gif" }
+            { id: "tb_1", nome: "Agach. Smith", series: "4x12", img: "./imgs/treino b/agachamento-smith.gif" },
+            { id: "tb_2", nome: "Extensora", series: "4x12", img: "./imgs/treino b/extensora.gif" },
+            { id: "tb_3", nome: "Leg 45º", series: "4x12", img: "./imgs/treino b/leg-45.gif" },
+            { id: "tb_4", nome: "Ext unilateral", series: "4x12", img: "./imgs/treino b/extensora-unilateral.gif" },
+            { id: "tb_5", nome: "Hack", series: "4x12", img: "./imgs/treino b/hack.gif" },
+            { id: "tb_6", nome: "Adutor", series: "4x12", img: "./imgs/treino b/adutor.gif" },
+            { id: "tb_7", nome: "Panturrilha máq.", series: "4x12", img: "./imgs/treino b/panturrilha-maquina.gif" }
         ]
     },
     {
         id: "treino_c", titulo: "Treino C", subtitulo: "Costas / Bíceps",
         exercicios: [
-            { id: "tc_1", nome: "Puxada aberta w", series: "4x10", img: "https://i.postimg.cc/9XnVs2YR/puxada-aberta-w.gif" },
-            { id: "tc_2", nome: "Puxada fechada w", series: "4x10", img: "https://i.postimg.cc/nVPZNxG1/puxada-fechada-w.gif" },
-            { id: "tc_3", nome: "Remada triângulo", series: "4x10", img: "https://i.postimg.cc/VL018hKt/remada-triangulo.gif" },
-            { id: "tc_4", nome: "Remada supinada uni", series: "4x10", img: "https://i.postimg.cc/rFRckHft/remada-supinada.gif" },
-            { id: "tc_5", nome: "Remada curvada Smith", series: "4x10", img: "https://i.postimg.cc/v8NMCytt/remada-curvada-smith.gif" },
-            { id: "tc_6", nome: "Pull down", series: "4x10", img: "https://i.postimg.cc/h45gNn1d/pull-down.gif" },
-            { id: "tc_7", nome: "Rosca direta", series: "4x10", img: "https://i.postimg.cc/J4HmLFp3/rosca-direta.gif" },
-            { id: "tc_8", nome: "Rosca invertida", series: "4x10", img: "https://i.postimg.cc/X7B3bPss/rosca-invertida.gif" },
-            { id: "tc_9", nome: "Martelo", series: "4x10", img: "https://i.postimg.cc/NGzYZtkr/martelo.gif" },
-            { id: "tc_10", nome: "Concentrado", series: "4x10", img: "https://i.postimg.cc/NGzYZtkm/concentrado.gif" }
+            { id: "tc_1", nome: "Puxada aberta w", series: "4x10", img: "./imgs/treino c/puxada-aberta-w.gif" },
+            { id: "tc_2", nome: "Puxada fechada w", series: "4x10", img: "./imgs/treino c/puxada-fechada-w.gif" },
+            { id: "tc_3", nome: "Remada triângulo", series: "4x10", img: "./imgs/treino c/remada-triangulo.gif" },
+            { id: "tc_4", nome: "Remada supinada uni", series: "4x10", img: "./imgs/treino c/remada-supinada.gif" },
+            { id: "tc_5", nome: "Remada curvada Smith", series: "4x10", img: "./imgs/treino c/remada-curvada-smith.gif" },
+            { id: "tc_6", nome: "Pull down", series: "4x10", img: "./imgs/treino c/pull-down.gif" },
+            { id: "tc_7", nome: "Rosca direta", series: "4x10", img: "./imgs/treino c/rosca-direta.gif" },
+            { id: "tc_8", nome: "Rosca invertida", series: "4x10", img: "./imgs/treino c/rosca-invertida.gif" },
+            { id: "tc_9", nome: "Martelo", series: "4x10", img: "./imgs/treino c/martelo.gif" },
+            { id: "tc_10", nome: "Concentrado", series: "4x10", img: "./imgs/treino c/concentrado.gif" }
         ]
     },
     {

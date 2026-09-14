@@ -7,12 +7,12 @@
   "theme_color": "#f4f4f9",
   "icons": [
     {
-      "src": "https://i.postimg.cc/wTZLRxGp/logo-192.png?text=Treino",
+      "src": "./imgs/logo-192.png?text=Treino",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://i.postimg.cc/fTpmSWrn/logo-512.png?text=Treino",
+      "src": "./imgs/logo-512.png?text=Treino",
       "sizes": "512x512",
       "type": "image/png"
     }
