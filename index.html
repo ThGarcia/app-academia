@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treino</title>
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#f4f4f9">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Treinos">
+  <link rel="apple-touch-icon" href="https://i.postimg.cc/wTZLRxGp/logo-192.png?text=Treino">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h1>Meus Treinos</h1>
+  <div id="app"></div>
+
+  <!-- Modal de Foto do Aparelho -->
+  <div id="imagemModal" class="modal">
+    <div class="modal-content">
+      <h3 id="modalTitulo"></h3>
+      <img id="modalImg" src="" alt="Foto do Aparelho">
+      <br>
+      <button class="btn-close" onclick="fecharModal()">Fechar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
