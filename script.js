@@ -50,13 +50,13 @@ const treinosData = [
     {
         id: "treino_d", titulo: "Treino D", subtitulo: "Posterior",
         exercicios: [
-            { id: "td_1", nome: "Cadeira flexora", series: "4x10", img: "" },
-            { id: "td_2", nome: "Mesa flexora", series: "4x10", img: "" },
-            { id: "td_3", nome: "Flexora em pé", series: "4x10", img: "" },
-            { id: "td_4", nome: "Stiff Smith", series: "4x10", img: "" },
-            { id: "td_5", nome: "Búlgaro", series: "4x10", img: "" },
-            { id: "td_6", nome: "Abdutor", series: "4x15", img: "" },
-            { id: "td_7", nome: "Panturrilha leg.", series: "4x15", img: "" }
+            { id: "td_1", nome: "Cadeira flexora", series: "4x10", img: "./imgs/treino d/cadeira-flexora.gif" },
+            { id: "td_2", nome: "Mesa flexora", series: "4x10", img: "./imgs/treino d/mesa-flexora.gif" },
+            { id: "td_3", nome: "Flexora em pé", series: "4x10", img: "./imgs/treino d/flexora-em-pe.gif" },
+            { id: "td_4", nome: "Stiff Smith", series: "4x10", img: "./imgs/treino d/stiff-smith.gif" },
+            { id: "td_5", nome: "Búlgaro", series: "4x10", img: "./imgs/treino d/bulgaro.gif" },
+            { id: "td_6", nome: "Abdutor", series: "4x15", img: "./imgs/treino d/abdutor.gif" },
+            { id: "td_7", nome: "Panturrilha leg.", series: "4x15", img: "./imgs/treino d/panturrilha-leg.gif" }
         ]
     },
     {
