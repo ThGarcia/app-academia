@@ -1,10 +1,17 @@
 /* Estilização funcional rápida (apenas estrutural) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
     padding: 15px;
     max-width: 600px;
     margin: 0 auto;
     background: #f4f4f9;
+    text-align: center;
 }
 
 .card {
@@ -27,9 +34,23 @@ body {
 .exercicio-item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 8px 0;
-    border-bottom: 1px dashed #eee;
+    /*justify-content: space-between;*/
+    padding: 8px;
+    border-top: 1px solid #868686;
+    gap: 16px;
+}
+
+
+input[type="checkbox"] {
+    transform: scale(2);
+    cursor: pointer;
+}
+
+.exercicio-detalhes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .exercicio-info {
@@ -37,6 +58,15 @@ body {
     align-items: center;
     gap: 8px;
     flex: 1;
+}
+
+.exercicio-info span {
+    font-weight: bolder;
+}
+
+.exercicio-data {
+    display: flex;
+    justify-content: space-between;
 }
 
 .exercicio-nome {
@@ -54,7 +84,6 @@ body {
 .btn-pago {
     width: 100%;
     padding: 12px;
-    margin-top: 15px;
     background: #28a745;
     color: white;
     border: none;

@@ -23,26 +23,26 @@ const treinosData = [
     {
         id: "treino_b", titulo: "Treino B", subtitulo: "Quadríceps",
         exercicios: [
-            { id: "tb_1", nome: "Agach. Smith", series: "4x12", img: "./imgs/treino b/agachamento-smith.gif" },
-            { id: "tb_2", nome: "Extensora", series: "4x12", img: "./imgs/treino b/extensora.gif" },
-            { id: "tb_3", nome: "Leg 45º", series: "4x12", img: "./imgs/treino b/leg-45.gif" },
-            { id: "tb_4", nome: "Ext unilateral", series: "4x12", img: "./imgs/treino b/extensora-unilateral.gif" },
+            { id: "tb_1", nome: "Agachamento Smith", series: "4x12", img: "./imgs/treino b/agachamento-smith.gif" },
+            { id: "tb_2", nome: "Cadeira Extensora", series: "4x12", img: "./imgs/treino b/extensora.gif" },
+            { id: "tb_3", nome: "Leg Press 45º", series: "4x12", img: "./imgs/treino b/leg-45.gif" },
+            { id: "tb_4", nome: "Extensora unilateral", series: "4x12", img: "./imgs/treino b/extensora-unilateral.gif" },
             { id: "tb_5", nome: "Hack", series: "4x12", img: "./imgs/treino b/hack.gif" },
             { id: "tb_6", nome: "Adutor", series: "4x12", img: "./imgs/treino b/adutor.gif" },
-            { id: "tb_7", nome: "Panturrilha máq.", series: "4x12", img: "./imgs/treino b/panturrilha-maquina.gif" }
+            { id: "tb_7", nome: "Panturrilha máquina", series: "4x12", img: "./imgs/treino b/panturrilha-maquina.gif" }
         ]
     },
     {
         id: "treino_c", titulo: "Treino C", subtitulo: "Costas / Bíceps",
         exercicios: [
-            { id: "tc_1", nome: "Puxada aberta w", series: "4x10", img: "./imgs/treino c/puxada-aberta-w.gif" },
-            { id: "tc_2", nome: "Puxada fechada w", series: "4x10", img: "./imgs/treino c/puxada-fechada-w.gif" },
-            { id: "tc_3", nome: "Remada triângulo", series: "4x10", img: "./imgs/treino c/remada-triangulo.gif" },
-            { id: "tc_4", nome: "Remada supinada uni", series: "4x10", img: "./imgs/treino c/remada-supinada.gif" },
-            { id: "tc_5", nome: "Remada curvada Smith", series: "4x10", img: "./imgs/treino c/remada-curvada-smith.gif" },
-            { id: "tc_6", nome: "Pull down", series: "4x10", img: "./imgs/treino c/pull-down.gif" },
-            { id: "tc_7", nome: "Rosca direta", series: "4x10", img: "./imgs/treino c/rosca-direta.gif" },
-            { id: "tc_8", nome: "Rosca invertida", series: "4x10", img: "./imgs/treino c/rosca-invertida.gif" },
+            { id: "tc_1", nome: "Puxada Aberta W", series: "4x10", img: "./imgs/treino c/puxada-aberta-w.gif" },
+            { id: "tc_2", nome: "Puxada Fechada W", series: "4x10", img: "./imgs/treino c/puxada-fechada-w.gif" },
+            { id: "tc_3", nome: "Remada Triângulo", series: "4x10", img: "./imgs/treino c/remada-triangulo.gif" },
+            { id: "tc_4", nome: "Remada Supinada Unilateral", series: "4x10", img: "./imgs/treino c/remada-supinada.gif" },
+            { id: "tc_5", nome: "Remada Curvada Smith", series: "4x10", img: "./imgs/treino c/remada-curvada-smith.gif" },
+            { id: "tc_6", nome: "Pull Down", series: "4x10", img: "./imgs/treino c/pull-down.gif" },
+            { id: "tc_7", nome: "Rosca Direta", series: "4x10", img: "./imgs/treino c/rosca-direta.gif" },
+            { id: "tc_8", nome: "Rosca Invertida", series: "4x10", img: "./imgs/treino c/rosca-invertida.gif" },
             { id: "tc_9", nome: "Martelo", series: "4x10", img: "./imgs/treino c/martelo.gif" },
             { id: "tc_10", nome: "Concentrado", series: "4x10", img: "./imgs/treino c/concentrado.gif" }
         ]
@@ -50,13 +50,13 @@ const treinosData = [
     {
         id: "treino_d", titulo: "Treino D", subtitulo: "Posterior",
         exercicios: [
-            { id: "td_1", nome: "Cadeira flexora", series: "4x10", img: "./imgs/treino d/cadeira-flexora.gif" },
-            { id: "td_2", nome: "Mesa flexora", series: "4x10", img: "./imgs/treino d/mesa-flexora.gif" },
-            { id: "td_3", nome: "Flexora em pé", series: "4x10", img: "./imgs/treino d/flexora-em-pe.gif" },
+            { id: "td_1", nome: "Cadeira Flexora", series: "4x10", img: "./imgs/treino d/cadeira-flexora.gif" },
+            { id: "td_2", nome: "Mesa Flexora", series: "4x10", img: "./imgs/treino d/mesa-flexora.gif" },
+            { id: "td_3", nome: "Flexora em Pé", series: "4x10", img: "./imgs/treino d/flexora-em-pe.gif" },
             { id: "td_4", nome: "Stiff Smith", series: "4x10", img: "./imgs/treino d/stiff-smith.gif" },
             { id: "td_5", nome: "Búlgaro", series: "4x10", img: "./imgs/treino d/bulgaro.gif" },
             { id: "td_6", nome: "Abdutor", series: "4x15", img: "./imgs/treino d/abdutor.gif" },
-            { id: "td_7", nome: "Panturrilha leg.", series: "4x15", img: "./imgs/treino d/panturrilha-leg.gif" }
+            { id: "td_7", nome: "Panturrilha Leg Press 45°", series: "4x15", img: "./imgs/treino d/panturrilha-leg.gif" }
         ]
     },
     {
@@ -119,6 +119,7 @@ function renderizar() {
         let htmlExercicios = treino.exercicios.map(ex => {
             const exEstado = estado.progresso[ex.id] || { concluido: false, peso: '' };
             return `
+            <!--
             <div class="exercicio-item">
               <div class="exercicio-info">
                 <input type="checkbox" ${exEstado.concluido ? 'checked' : ''} 
@@ -129,6 +130,24 @@ function renderizar() {
               <div>
                 <input type="number" class="carga-input" placeholder="kg" value="${exEstado.peso}" 
                        onchange="salvarPeso('${ex.id}', this.value)"> kg
+              </div>
+            </div>
+            -->
+            <div class="exercicio-item">
+                <input type="checkbox" ${exEstado.concluido ? 'checked' : ''} 
+                       onchange="toggleCheck('${ex.id}', this.checked)">
+              <div class="exercicio-detalhes">
+              <div class="exercicio-info">
+                <span class="exercicio-nome" onclick="abrirModal('${ex.nome}', '${ex.img}')">${ex.nome}</span>
+                
+              </div>
+              <div class="exercicio-data">
+              <small>${ex.series}</small>
+                <div>
+                <input type="number" class="carga-input" placeholder="kg" value="${exEstado.peso}" 
+                       onchange="salvarPeso('${ex.id}', this.value)"> kg
+                       </div>
+              </div>
               </div>
             </div>
           `;
@@ -183,7 +202,7 @@ function marcarComoPago(treinoId) {
 // 5. Funções do Modal de Imagem
 function abrirModal(nome, url) {
     document.getElementById('modalTitulo').innerText = nome;
-    document.getElementById('modalImg').src = url || 'https://via.placeholder.com/300?text=Sem+Foto';
+    document.getElementById('modalImg').src = url || './imgs/atencao.png';
     document.getElementById('imagemModal').style.display = 'flex';
 }
 
