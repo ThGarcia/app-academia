@@ -62,13 +62,13 @@ const treinosData = [
     {
         id: "treino_e", titulo: "Treino E", subtitulo: "Peito / Bíceps",
         exercicios: [
-            { id: "te_1", nome: "Voador inclinado", series: "4x10", img: "" },
-            { id: "te_2", nome: "Pull Over", series: "4x10", img: "" },
-            { id: "te_3", nome: "Cross Over (2 posições)", series: "3x10", img: "" },
-            { id: "te_4", nome: "Puxada alta frente + encolhi.", series: "3x10", img: "" },
-            { id: "te_5", nome: "Elev. lat. Máq. + ombro no cabo", series: "3x10", img: "" },
-            { id: "te_6", nome: "Tríceps coice + invertido", series: "4x10", img: "" },
-            { id: "te_7", nome: "Francês uni. + testa banco", series: "4x10", img: "" }
+            { id: "te_1", nome: "Voador inclinado", series: "4x10", img: "./imgs/treino e/voador-inclinado.gif" },
+            { id: "te_2", nome: "Pull Over", series: "4x10", img: "./imgs/treino e/pull-over.gif" },
+            { id: "te_3", nome: "Cross Over (2 posições)", series: "3x10", img: "./imgs/treino e/cross-over.gif" },
+            { id: "te_4", nome: "Puxada alta frente + encolhi.", series: "3x10", img: "./imgs/treino e/puxada-alta-frente-encolhida.gif" },
+            { id: "te_5", nome: "Elev. lat. Máq. + ombro no cabo", series: "3x10", img: "./imgs/treino e/elevação-lateral-maquina-ombro-cabo.gif" },
+            { id: "te_6", nome: "Tríceps coice + invertido", series: "4x10", img: "./imgs/treino e/triceps-coice-invertido.gif" },
+            { id: "te_7", nome: "Francês uni. + testa banco", series: "4x10", img: "./imgs/treino e/frances-universal-testa-banco.gif" }
         ]
     },
     {
