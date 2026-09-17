@@ -64,11 +64,16 @@ const treinosData = [
         exercicios: [
             { id: "te_1", nome: "Voador inclinado", series: "4x10", img: "./imgs/treino e/voador-inclinado.gif" },
             { id: "te_2", nome: "Pull Over", series: "4x10", img: "./imgs/treino e/pull-over.gif" },
-            { id: "te_3", nome: "Cross Over (2 posições)", series: "3x10", img: "./imgs/treino e/cross-over.gif" },
-            { id: "te_4", nome: "Puxada alta frente + encolhi.", series: "3x10", img: "./imgs/treino e/puxada-alta-frente-encolhida.gif" },
-            { id: "te_5", nome: "Elev. lat. Máq. + ombro no cabo", series: "3x10", img: "./imgs/treino e/elevação-lateral-maquina-ombro-cabo.gif" },
-            { id: "te_6", nome: "Tríceps coice + invertido", series: "4x10", img: "./imgs/treino e/triceps-coice-invertido.gif" },
-            { id: "te_7", nome: "Francês uni. + testa banco", series: "4x10", img: "./imgs/treino e/frances-universal-testa-banco.gif" }
+            { id: "te_3", nome: "Cross Over Polia Alta", series: "3x10", img: "./imgs/treino e/cross-over-polia-alta.gif" },
+            { id: "te_4", nome: "Cross Over Polia Baixa", series: "3x10", img: "./imgs/treino e/cross-over-polia-baixa.gif" },
+            { id: "te_5", nome: "Puxada Alta Frente", series: "3x10", img: "./imgs/treino e/puxada-alta-frente.gif" },            
+            { id: "te_6", nome: "Elevação Ombro", series: "3x10", img: "./imgs/treino e/elevacao-ombro.gif" },
+            { id: "te_7", nome: "Elevação Lateral", series: "3x10", img: "./imgs/treino e/elevacao-lateral.gif" },
+            { id: "te_8", nome: "Ombro no Cabo", series: "3x10", img: "./imgs/treino e/ombro-cabo.gif" },
+            { id: "te_9", nome: "Tríceps Coice", series: "4x10", img: "./imgs/treino e/triceps-coice.gif" },
+            { id: "te_10", nome: "Invertido", series: "4x10", img: "./imgs/treino e/invertido.gif" },
+            { id: "te_11", nome: "Francês", series: "4x10", img: "./imgs/treino e/frances.gif" },
+            { id: "te_12", nome: "Testa", series: "4x10", img: "./imgs/treino e/testa.gif" }
         ]
     },
     {
