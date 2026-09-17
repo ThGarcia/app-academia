@@ -79,14 +79,14 @@ const treinosData = [
     {
         id: "treino_f", titulo: "Treino F", subtitulo: "Costa / Bíceps",
         exercicios: [
-            { id: "tf_1", nome: "Puxada articulada máq.", series: "4x10", img: "" },
-            { id: "tf_2", nome: "Remada articulada", series: "4x10", img: "" },
-            { id: "tf_3", nome: "Serrote", series: "4x10", img: "" },
-            { id: "tf_4", nome: "Pull face", series: "4x10", img: "" },
-            { id: "tf_5", nome: "Rosca martelo barra H", series: "4x10", img: "" },
-            { id: "tf_6", nome: "Banco scott drop (10-10-10)", series: "3x10", img: "" },
-            { id: "tf_7", nome: "Extensão braquial corda", series: "", img: "" },
-            { id: "tf_8", nome: "Extensão lombar banco romano", series: "", img: "" }
+            { id: "tf_1", nome: "Puxada Articulada Máquina", series: "4x10", img: "./imgs/treino f/puxada-articulada-maquina.gif" },
+            { id: "tf_2", nome: "Remada Articulada", series: "4x10", img: "./imgs/treino f/remada-articulada.gif" },
+            { id: "tf_3", nome: "Serrote", series: "4x10", img: "./imgs/treino f/serrote.gif" },
+            { id: "tf_4", nome: "Pull Face", series: "4x10", img: "./imgs/treino f/pull-face.gif" },
+            { id: "tf_5", nome: "Rosca Martelo Barra H", series: "4x10", img: "./imgs/treino f/rosca-martelo-barra-h.gif" },
+            { id: "tf_6", nome: "Banco Scott Drop (10-10-10)", series: "3x10", img: "./imgs/treino f/banco-scott.gif" },
+            { id: "tf_7", nome: "Extensão Braquial Corda", series: "", img: "./imgs/treino f/extensao-braquial-corda.gif" },
+            { id: "tf_8", nome: "Extensão Lombar Banco Romano", series: "", img: "./imgs/treino f/extensao-lombar-banco-romano.gif" }
         ]
     }
 ];
