@@ -26,10 +26,10 @@ const treinosData = [
             { id: "tb_1", nome: "Agachamento Smith", series: "4x12", img: "./imgs/treino b/agachamento-smith.gif" },
             { id: "tb_2", nome: "Cadeira Extensora", series: "4x12", img: "./imgs/treino b/extensora.gif" },
             { id: "tb_3", nome: "Leg Press 45º", series: "4x12", img: "./imgs/treino b/leg-45.gif" },
-            { id: "tb_4", nome: "Extensora unilateral", series: "4x12", img: "./imgs/treino b/extensora-unilateral.gif" },
+            { id: "tb_4", nome: "Extensora Unilateral", series: "4x12", img: "./imgs/treino b/extensora-unilateral.gif" },
             { id: "tb_5", nome: "Hack", series: "4x12", img: "./imgs/treino b/hack.gif" },
             { id: "tb_6", nome: "Adutor", series: "4x12", img: "./imgs/treino b/adutor.gif" },
-            { id: "tb_7", nome: "Panturrilha máquina", series: "4x12", img: "./imgs/treino b/panturrilha-maquina.gif" }
+            { id: "tb_7", nome: "Panturrilha Sentado", series: "4x12", img: "./imgs/treino b/panturrilha-sentado.gif" }
         ]
     },
     {
@@ -56,7 +56,7 @@ const treinosData = [
             { id: "td_4", nome: "Stiff Smith", series: "4x10", img: "./imgs/treino d/stiff-smith.gif" },
             { id: "td_5", nome: "Búlgaro", series: "4x10", img: "./imgs/treino d/bulgaro.gif" },
             { id: "td_6", nome: "Abdutor", series: "4x15", img: "./imgs/treino d/abdutor.gif" },
-            { id: "td_7", nome: "Panturrilha Leg Press 45°", series: "4x15", img: "./imgs/treino d/panturrilha-leg.gif" }
+            { id: "td_7", nome: "Panturrilha Máquina", series: "4x15", img: "./imgs/treino d/panturrilha-maquina.gif" }
         ]
     },
     {
