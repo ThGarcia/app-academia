@@ -11,13 +11,17 @@ const treinosData = [
     {
         id: "treino_a", titulo: "Treino A", subtitulo: "Peito / Tríceps",
         exercicios: [
-            { id: "ta_1", nome: "Supino inclinado barra", series: "4x10", img: "" },
-            { id: "ta_2", nome: "Reto halter", series: "4x10", img: "" },
-            { id: "ta_3", nome: "Declinado máq.", series: "4x10", img: "" },
-            { id: "ta_4", nome: "Voador + elev. lat.", series: "4x10", img: "" },
-            { id: "ta_5", nome: "Tríceps corda + barra", series: "4x10", img: "" },
-            { id: "ta_6", nome: "Francês + testa p", series: "4x10", img: "" },
-            { id: "ta_7", nome: "Desenvolvimento + frontal", series: "4x10", img: "" }
+            { id: "ta_1", nome: "Supino Inclinado Barra", series: "4x10", img: "./imgs/treino a/supino-inclinado-barra.gif" },
+            { id: "ta_2", nome: "Reto Halter", series: "4x10", img: "./imgs/treino a/reto-halter.gif" },
+            { id: "ta_3", nome: "Declinado Máquina", series: "4x10", img: "./imgs/treino a/declinado-maquina.gif" },
+            { id: "ta_4", nome: "Voador", series: "4x10", img: "./imgs/treino a/voador.gif" },
+            { id: "ta_5", nome: "Elevação Lateral", series: "4x10", img: "./imgs/treino a/elevacao-lateral-ombro.gif" },
+            { id: "ta_6", nome: "Tríceps Corda", series: "4x10", img: "./imgs/treino a/triceps-corda.gif" },
+            { id: "ta_7", nome: "Tríceps Barra", series: "4x10", img: "./imgs/treino a/triceps-barra.gif" },
+            { id: "ta_8", nome: "Francês", series: "4x10", img: "./imgs/treino a/triceps-frances.gif" },
+            { id: "ta_9", nome: "Testa P", series: "4x10", img: "./imgs/treino a/triceps-testa.gif" },
+            { id: "ta_10", nome: "Desenvolvimento Frontal", series: "4x10", img: "./imgs/treino a/desenvolvimento-frontal.gif" },
+            { id: "ta_11", nome: "Elevação Frontal", series: "4x10", img: "./imgs/treino a/elevacao-frontal.gif" }
         ]
     },
     {
