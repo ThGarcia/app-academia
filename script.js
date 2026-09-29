@@ -94,31 +94,31 @@ const treinosData = [
         ]
     },
     {
-        id: "segunda", titulo: "Segunda", subtitulo: "Quadríceps",
+        id: "treino_1", titulo: "Treino 1", subtitulo: "Quadríceps",
         exercicios: [
-            { id: "1_1", nome: "Extensora Unilateral", series: "4x12", img: "./imgs/atencao.png" },
-            { id: "1_2", nome: "Hack", series: "4x12", img: "./imgs/atencao.png" },
-            { id: "1_3", nome: "Leg Press 45°", series: "4x12", img: "./imgs/atencao.png" },
-            { id: "1_4", nome: "Leg Press 90°", series: "3x10", img: "./imgs/atencao.png" },
-            { id: "1_5", nome: "Adutor", series: "3x15", img: "./imgs/atencao.png" },
-            { id: "1_6", nome: "Panturrilha Máquina", series: "4x12", img: "./imgs/atencao.png" }
+            { id: "1_1", nome: "Extensora Unilateral", series: "4x12", img: "./imgs/camila/1-segunda/extensora-unilateral.gif" },
+            { id: "1_2", nome: "Hack", series: "4x12", img: "./imgs/camila/1-segunda/hack.gif" },
+            { id: "1_3", nome: "Leg Press 45°", series: "4x12", img: "./imgs/camila/1-segunda/leg-45.gif" },
+            { id: "1_4", nome: "Leg Press 90°", series: "3x10", img: "./imgs/camila/1-segunda/leg-90.gif" },
+            { id: "1_5", nome: "Adutor", series: "3x15", img: "./imgs/camila/1-segunda/adutor.gif" },
+            { id: "1_6", nome: "Panturrilha Máquina", series: "4x12", img: "./imgs/camila/1-segunda/panturrilha-sentado.gif" }
         ]
     },
     {
-        id: "terca", titulo: "Terça", subtitulo: "Peito / Ombro / Tríceps",
+        id: "treino_2", titulo: "Treino 2", subtitulo: "Peito / Ombro / Tríceps",
         exercicios: [
-            { id: "2_1", nome: "Voador", series: "4x10", img: "./imgs/atencao.png" },
-            { id: "2_2", nome: "Supino Máquina", series: "4x10", img: "./imgs/atencao.png" },
-            { id: "2_3", nome: "Elevação Lateral", series: "4x10", img: "./imgs/atencao.png" },
-            { id: "2_4", nome: "Elevação Frontal", series: "4x10", img: "./imgs/atencao.png" },
-            { id: "2_5", nome: "Desenvolvimento Máquina", series: "4x10", img: "./imgs/atencao.png" },
-            { id: "2_6", nome: "Máquina de Tríceps", series: "4x10", img: "./imgs/atencao.png" },
-            { id: "2_7", nome: "Tríceps Corda", series: "4x10", img: "./imgs/atencao.png" },
-            { id: "2_8", nome: "Tríceps Puley", series: "4x10", img: "./imgs/atencao.png" }
+            { id: "2_1", nome: "Voador", series: "4x10", img: "./imgs/camila/2-terca/voador.gif" },
+            { id: "2_2", nome: "Supino Máquina", series: "4x10", img: "./imgs/camila/2-terca/supino-máquina.gif" },
+            { id: "2_3", nome: "Elevação Lateral", series: "4x10", img: "./imgs/camila/2-terca/elevacao-lateral.gif" },
+            { id: "2_4", nome: "Elevação Frontal", series: "4x10", img: "./imgs/camila/2-terca/elevacao-frontal.gif" },
+            { id: "2_5", nome: "Desenvolvimento Máquina", series: "4x10", img: "./imgs/camila/2-terca/desenvolvimento-maquina.gif" },
+            { id: "2_6", nome: "Máquina de Tríceps", series: "4x10", img: "./imgs/camila/2-terca/maquina-triceps.gif" },
+            { id: "2_7", nome: "Tríceps Corda", series: "4x10", img: "./imgs/camila/2-terca/triceps-corda.gif" },
+            { id: "2_8", nome: "Tríceps Pulley", series: "4x10", img: "./imgs/camila/2-terca/triceps-pulley.gif" }
         ]
     },
     {
-        id: "quarta", titulo: "Quarta", subtitulo: "Posterior",
+        id: "treino_3", titulo: "Treino 3", subtitulo: "Posterior",
         exercicios: [
             { id: "3_1", nome: "Cadeira Flexora", series: "4x10", img: "./imgs/atencao.png" },
             { id: "3_2", nome: "Mesa Flexora", series: "4x10", img: "./imgs/atencao.png" },
@@ -129,7 +129,7 @@ const treinosData = [
         ]
     },
     {
-        id: "quinta", titulo: "Quinta", subtitulo: "Costa / Bíceps",
+        id: "treino_4", titulo: "Treino 4", subtitulo: "Costa / Bíceps",
         exercicios: [
             { id: "4_1", nome: "Puxada Alta Aberta e Fechada", series: "3x10", img: "./imgs/atencao.png" },
             { id: "4_2", nome: "Remada Baixa Triângulo", series: "3x10", img: "./imgs/atencao.png" },
@@ -141,7 +141,7 @@ const treinosData = [
         ]
     },
     {
-        id: "sexta", titulo: "Sexta", subtitulo: "Glúteos",
+        id: "treino_5", titulo: "Treino 5", subtitulo: "Glúteos",
         exercicios: [
             { id: "5_1", nome: "Sumô", series: "4x10", img: "./imgs/atencao.png" },
             { id: "5_2", nome: "Coice no Cabo", series: "4x10", img: "./imgs/atencao.png" },
@@ -159,7 +159,7 @@ const isCamila = window.location.search.includes('camila') || window.location.pa
 
 // Define quais IDs pertencem a cada perfil
 const idsPrincipais = ["treino_a", "treino_b", "treino_c", "treino_d", "treino_e", "treino_f"];
-const idsCamila = ["segunda", "terca", "quarta", "quinta", "sexta"];
+const idsCamila = ["treino_1", "treino_2", "treino_3", "treino_4", "treino_5"];
 
 // Lista de IDs permitidos para a rota atual
 const idsPermitidos = isCamila ? idsCamila : idsPrincipais;
